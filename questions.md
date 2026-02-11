@@ -7,7 +7,7 @@ Deploy the counter pod to the cluster using the provided YAML spec file at /opt/
 Retrieve all currently available application logs from the running pod and store them in the file /opt/KDOB00201/log_output.txt, which has already been created
 ### Question 2 (4)
 #### Context
-A web application requires a specific version of redis to be used as a cache.
+A web application requires a specific version of nginx to be used as a cache.
 #### Task
 Create a pod with the following characteristics, and leave it running when complete:
 - The pod must run in the web namespace. The namespace has already been created
