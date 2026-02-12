@@ -12,7 +12,7 @@ A web application requires a specific version of nginx to be used as a cache.
 Create a pod with the following characteristics, and leave it running when complete:
 - The pod must run in the web namespace. The namespace has already been created
 - The name of the pod should be cache
-- Use the library/nginx Image with the 1.27-alpine tag
+- Use the library/nginx Image with the 1.27-alpine
 - Expose port 6379
 ### Question 3 (5)
 #### Context
