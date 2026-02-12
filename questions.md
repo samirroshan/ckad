@@ -60,7 +60,7 @@ From the pods running in namespace stress, write the name only of the pod that i
 Anytime a team needs to run a container on Kubernetes they will need to define a pod within which to run the container.
 #### Task
 Please complete the following:
-- Create a YAML formatted pod manifest /opt/KDPD00101/pod1.yml to create a pod named app1 that runs a container named app1cont using Image lfccncf/arg-output with these command line arguments: -Q --dep test
+- Create a YAML formatted pod manifest /opt/KDPD00101/pod1.yml to create a pod named app1 that runs a container named app1cont using Image library/nginx with these command line arguments: -Q --dep test
 - Create the pod with the kubectl command using the YAML file created in the previous step
 - When the pod is running display summary data about the pod in JSON format using the kubectl command and redirect the output to a file named /opt/KDPD00101/out1.json
 
